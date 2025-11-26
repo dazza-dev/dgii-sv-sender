@@ -1,0 +1,38 @@
+{
+  "name": "dazza-dev/dgii-sv-sender",
+  "description": "Paquete para enviar documentos tributarios electrónicos (DTE) (Factura, Nota de remisión, Nota crédito, Nota débito y Comprobante de retención) al DGII (El Salvador).",
+  "keywords": [
+    "dgii",
+    "dte",
+    "factura electrónica",
+    "el salvador"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Andres Daza",
+      "email": "adaza90@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DazzaDev\\DgiiSvSender\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DazzaDev\\DgiiSvSender\\Tests\\": "tests/"
+    }
+  }
+}
